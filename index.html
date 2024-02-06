@@ -29,10 +29,53 @@
     display: flex;
     align-items: center;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 14px;
 }
 
-@media only screen and (min-width: 768px) {
+.topnavbar {
+    position: relative;
+}
+.topnavbar {
+    -webkit-backface-visibility: hidden;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #fff;
+    z-index: 1050;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.topnavbar .navbar-header {
+    position: relative;
+    z-index: 11;
+}
+.navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+
+.navbar-collapse {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+}
+
+.topnavbar .navbar-header {
+    width: 220px;
+    text-align: center;
+}
+
+.navbar-collapse {
+    overflow-x: visible;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    -webkit-overflow-scrolling: touch;
+}
+
     .navbar {
         background-color: #0f75bc;
         background-image: -webkit-linear-gradient(left, #0f75bc 0%, #5ab2f2 100%);
@@ -41,7 +84,7 @@
         background-repeat: repeat-x;
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF2B957A', endColorstr='#FF37BC9B', GradientType=1);
     }
-}
+
 
 
 input,
@@ -187,9 +230,9 @@ html {
                 </a>
             </div>
             <div class="navbar-center">
-                <ul class="nav navbar-nav mx-auto">
-                    <li>
-                        <span class="navbar-text" style="margin-left: 20px;">MKK Gayrimenkul Bilgi Merkezi A.Ş.</span>
+                <ul class="nav navbar-nav" id="navTitleCenter" style="margin: 0px auto; width: 100%; text-align: center; color: white; font-size: 1.6rem;">
+                    <li style="text-align:center;width:100%;padding-top:10px;">
+                       MKK Gayrimenkul Bilgi Merkezi A.Ş.
                     </li>
                 </ul>
             </div>
