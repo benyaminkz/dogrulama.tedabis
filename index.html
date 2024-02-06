@@ -9,26 +9,24 @@
 <style>
 
 .navbar {
-    min-height: 50px; /* Ensure navbar height is always visible */
-    max-height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 10px; /* Adjust padding for smaller screens */
 }
 
-.navbar-brand img {
-    max-height: 50px; /* Ensure images do not exceed the height of the navbar */
-    width: auto;
+.navbar-right .navbar-brand img {
+    max-height: 100%; /* Make sure the image height respects the navbar height */
+    width: auto; /* Allow the image width to adjust automatically */
+    max-width: 100px; /* Set a maximum width for the image */
+    max-height: 50px; /* Set a maximum height for the image */
     vertical-align: middle;
 }
 
 .navbar-text {
-    margin: 0 auto; /* Center the text horizontally */
-    display: flex;
-    align-items: center;
+    margin: 0; /* Remove auto margin */
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
 }
 
 @media only screen and (min-width: 768px) {
@@ -380,14 +378,16 @@ html {
         </div>
                             
     </div>
-                        
-</div>
-                        
-<div class="col-xs-24">
+
+    <div class="col-xs-24">
                            
-    <iframe id="docViewer" frameborder="0" style="width: 100%; height: 354.414px; min-height: 300px;" src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/raporm7kr60l2l36293a08bc0p-compressed.pdf?alt=media&token=ea6c1dbe-2e85-4251-8a4e-f8935c0e092b" _src="/Content/pdfjs/web/viewer.html"></iframe>
-                   
+        <iframe id="docViewer" frameborder="0" style="width: 100%; height: 354.414px; min-height: 300px;" src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/raporm7kr60l2l36293a08bc0p-compressed.pdf?alt=media&token=ea6c1dbe-2e85-4251-8a4e-f8935c0e092b" _src="/Content/pdfjs/web/viewer.html"></iframe>
+                       
+    </div>
+                        
 </div>
+                        
+
                   
 </div>
                
