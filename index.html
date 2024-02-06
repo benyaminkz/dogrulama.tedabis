@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Etikimza</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -11,10 +11,10 @@
 
     <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/images.png?alt=media&token=f41e739b-92d3-4f8d-8e06-733edf8a5f74" type="image/x-icon">
 
-  <style>
+<style>
 
-        /* Navbar styles */
-.topnavbar {
+     /* Navbar styles */
+     .topnavbar {
   background-color: #0f75bc; /* Set background color for the navigation bar */
   background-image: -webkit-linear-gradient(left, #0f75bc 0%, #5ab2f2 100%);
   background-image: -o-linear-gradient(left, #0f75bc 0%, #5ab2f2 100%);
@@ -53,38 +53,6 @@
   vertical-align: middle; /* Align text vertically in the middle */
 }
 
-    body, html {
-      height: 100%;
-      margin: 0;
-      font-family: "Source Sans Pro", sans-serif;
-    }
-    
-    .container {
-  margin-top: 20px;
-  display: flex;
-  height: auto;
-  padding: 10px; /* Add padding */
-  border: 1px solid #ccc; /* Add border */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
-}
-
-
-    .left-part {
-      width: 15%;
-      height: 100%;
-    }
-
-    .right-part {
-      display: flex;
-      flex-direction: column;
-      width: 85%;
-    }
-
-    .top-right-part {
-      height: 60%;
-      height: auto;
-    }
-
 
 
 input,
@@ -99,13 +67,12 @@ textarea {
     margin: 0;
 }
 
+
 .col-md-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 100%;
+    width: 16.66666667%;
 }
 .col-md-20 {
-    width: 100%;
+    width: 83.33333333%;
 }
 
 .col-xs-24 {
@@ -117,7 +84,6 @@ textarea {
     min-height: 1px;
     padding-left: 7.5px;
     padding-right: 7.5px;
-    width: 100%;
 }
 
 iframe {
@@ -173,6 +139,7 @@ html {
 .row {
     margin-left: 3px;
     margin-right: 3px;
+    height: auto;
 }
 
 .clearfix:after,
@@ -213,139 +180,175 @@ html {
 
 }
 
-.panel-footer {
-  padding: 15px;
-  border-top: 1px solid #ddd;
-}
-
-.panel-footer .container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.panel-footer .row {
-  align-items: center;
-}
-
-.panel-footer .col-xs-4 {
-  margin-bottom: 10px;
-}
-
-.textcenter{
-  margin-left: 50px;
-  margin-right: 50px;
-}
 
 
-.custom-margin {
-  margin-left: 200px;
-  margin-right: 200px;
-}
 
-
-  </style>
+</style>
 </head>
 <body>
-
+    <!-- Navigation bar -->
+<header class="topnavbar-wrapper">
+   <!-- Navbar -->
 <!-- Navbar -->
 <div class="navbar">
-<!-- Navbar -->
-<nav class="navbar topnavbar">
-  <div class="navbar-header">
-    <a href="#" class="navbar-brand">
-      <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/logo.png?alt=media&token=7ffad36d-c638-4471-a13b-6ea10639848a" alt="Left Logo">
-    </a>
-  </div>
-  <div class="navbar-center">
-    <ul class="nav navbar-nav" id="navTitleCenter">
-      <li>
-        MKK Gayrimenkul Bilgi Merkezi A.Ş.
-      </li>
-    </ul>
-  </div>
-  <div class="navbar-header navbar-right">
-    <a href="#" class="navbar-brand">
-      <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/mkk_logo.png?alt=media&token=57fa36d6-c7ed-4a44-b000-faa6135f9a0e" alt="Right Logo">
-    </a>
-  </div>
-</nav>
-</div>
+    <!-- Navbar -->
+    <nav class="navbar topnavbar">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand">
+          <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/logo.png?alt=media&token=7ffad36d-c638-4471-a13b-6ea10639848a" alt="Left Logo">
+        </a>
+      </div>
+      <div class="navbar-center">
+        <ul class="nav navbar-nav" id="navTitleCenter">
+          <li>
+            MKK Gayrimenkul Bilgi Merkezi A.Ş.
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-header navbar-right">
+        <a href="#" class="navbar-brand">
+          <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/mkk_logo.png?alt=media&token=57fa36d6-c7ed-4a44-b000-faa6135f9a0e" alt="Right Logo">
+        </a>
+      </div>
+    </nav>
+    </div>
+</header>
 
-<div class="container">
-  <input name="__RequestVerificationToken" type="hidden" value="-YavjPpUCQjlv0yB0rien5B5_-LWZkQl5MGMrxpZlf9QMsjHi_hRqpRk2fBV1qkwzxMpwWqZo77ugr-UHuxY997f-gkyq1TaKOYLuGlVn-Q1">
+    
 
-  <div class="left-part">
-    <script>
-      function downloadFile() {
-          // Create a link element
-          var link = document.createElement('a');
-          // Set the href attribute to the URL of the file
-          link.href = 'https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/raporm7kr60l2l36293a08bc0p-compressed.pdf?alt=media&token=ea6c1dbe-2e85-4251-8a4e-f8935c0e092b';
-          // Set the download attribute to specify the filename
-          link.download = 'raporm7kr60l2l36293a08bc0pc.pdf';
-          // Simulate a click on the link to trigger the download
-          link.click();
-      }
-  </script>
-  
-  <div class="col-xs-24 col-sm-24 col-md-4" style="margin-top: 10px;">
-    <div class="center-top-content">
+    <section>
+        <!-- Page content-->
+        <div class="content-wrapper" style="padding:9px;">
+            
 
-      <div id="docsPreview" class="row" style="padding-right: 0px; height: auto; min-height: 300px; width: 100%; overflow: hidden auto;">
-        <div class="_filepreview panel panel-default" id="pnl-q5i93pKIg9hPGj2r8NInKF2">
-            <div class="panel-body text-center">
-                <!-- Image with onclick event to trigger download -->
-                <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/ddownload.png?alt=media&token=b3e621b9-23de-4d94-b7f7-00dcd4d44774" alt="PDF Image" style="max-width: 70px; height: 70px; margin-top: 50px; cursor: pointer;" onclick="downloadFile()">
+<div class="pxanel panel-default">
+    <div class="panel-heading"></div>
+    <div class="panel-body" style="padding-top:0px;padding-bottom:0px;">
+         <input name="__RequestVerificationToken" type="hidden" value="-YavjPpUCQjlv0yB0rien5B5_-LWZkQl5MGMrxpZlf9QMsjHi_hRqpRk2fBV1qkwzxMpwWqZo77ugr-UHuxY997f-gkyq1TaKOYLuGlVn-Q1">
+            <div class="row">
+                <script>
+                    function downloadFile() {
+                        // Create a link element
+                        var link = document.createElement('a');
+                        // Set the href attribute to the URL of the file
+                        link.href = 'https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/raporm7kr60l2l36293a08bc0p-compressed.pdf?alt=media&token=ea6c1dbe-2e85-4251-8a4e-f8935c0e092b';
+                        // Set the download attribute to specify the filename
+                        link.download = 'raporm7kr60l2l36293a08bc0pc.pdf';
+                        // Simulate a click on the link to trigger the download
+                        link.click();
+                    }
+                </script>
                 
-                <div class="clearfix discover">
-                    <div class="pull-right">
-                        <a href="/Home/Document?validationCode=un7j0um3l4f55bfbc5bf&amp;fileID=q5i93pKIg9hPGj2r8NInKF2&amp;forDownload=True" title="Download" class="text-muted mr-sm">
-                            <em class="fa fa-download fa-fw"></em>
-                        </a>
+                <div class="col-xs-24 col-sm-24 col-md-4" style="margin-top: 10px;">
+                    <div id="docsPreview" class="row" style="padding-right: 10px; height: 300px; min-height: 300px; width: 100%; overflow: hidden auto;">
+                        <div class="_filepreview panel panel-default" id="pnl-q5i93pKIg9hPGj2r8NInKF2">
+                            <div class="panel-body text-center">
+                                <!-- Image with onclick event to trigger download -->
+                                <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/ddownload.png?alt=media&token=b3e621b9-23de-4d94-b7f7-00dcd4d44774" alt="PDF Image" style="max-width: 70px; height: 70px; margin-top: 50px; cursor: pointer;" onclick="downloadFile()">
+                                
+                                <div class="clearfix discover">
+                                    <div class="pull-right">
+                                        <a href="/Home/Document?validationCode=un7j0um3l4f55bfbc5bf&amp;fileID=q5i93pKIg9hPGj2r8NInKF2&amp;forDownload=True" title="Download" class="text-muted mr-sm">
+                                            <em class="fa fa-download fa-fw"></em>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="javascript:void(0)" onclick="loadDoc(this, 'q5i93pKIg9hPGj2r8NInKF2', 'un7j0um3l4f55bfbc5bf')" class="file-icon ph-lg">
+                                    <em class="fa fa-5x fa-file-pdf-o text-primary"></em>
+                                </a>
+                                <p style="overflow:hidden;">
+                                    <small class="text-dark" title="konut-be8ed3ce-fbed-4469-b7cc-61ea23f6f4ca-15.pdf">konut-be8ed3ce-fbed-4469-b7cc-61ea23f6f4ca-15.pdf</small>
+                                </p>
+                                <div class="clearfix m0 text-muted">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <a href="javascript:void(0)" onclick="loadDoc(this, 'q5i93pKIg9hPGj2r8NInKF2', 'un7j0um3l4f55bfbc5bf')" class="file-icon ph-lg">
-                    <em class="fa fa-5x fa-file-pdf-o text-primary"></em>
-                </a>
-                <p style="overflow:hidden;">
-                    <small class="text-dark" title="konut-be8ed3ce-fbed-4469-b7cc-61ea23f6f4ca-15.pdf">konut-be8ed3ce-fbed-4469-b7cc-61ea23f6f4ca-15.pdf</small>
-                </p>
-                <div class="clearfix m0 text-muted">
-                </div>
-            </div>
-        </div>
-    </div>
+                
+                
+                <div class="col-xs-24 col-sm-24 col-md-20">
+                    <div class="row">
+                        <div class="col-xs-24">
+                            <div class="clearBoth clearfix">
+                                <a href="javascript:void(0)" class="pull-right" style="margin-top:-20px;" onclick="signersResize(this)">
+                                    <em class="fa fa-minus" style="color:gray"></em>
+                                </a>
+                            </div>
+                            <div id="Signers" class="">
+                                <div class="signers_expanded">
+                                    <div role="alert" class="alert alert-leaf">
+                                        <div class="row"> <div class="col-xs-20">
+                                            <strong>Signed!</strong>  The document signed by ÇAĞDAŞ AYDOĞAN at 2024-01-07 11:19:14 GMT+03:00.</div>
+                                            <div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-0').toggle()" style="cursor:pointer">Detail</span>
+                                            </div>
+                                        </div>
 
-    </div>
-  </div>
-  </div>
-  <div class="right-part">
-    <div class="top-right-part">
-
-      <div class="pxanel panel-default">
-        <div class="panel-heading"></div>
-        <div class="panel-body" style="padding-top:0px;padding-bottom:0px;">
-             <input name="__RequestVerificationToken" type="hidden" value="-YavjPpUCQjlv0yB0rien5B5_-LWZkQl5MGMrxpZlf9QMsjHi_hRqpRk2fBV1qkwzxMpwWqZo77ugr-UHuxY997f-gkyq1TaKOYLuGlVn-Q1">
-                <div class="row">
-                    <div class="col-xs-24 col-sm-24 col-md-20">
-                        <div class="row">
-                            <div class="col-xs-24">
-                                <div class="clearBoth clearfix">
-                                    <a href="javascript:void(0)" class="pull-right" style="margin-top:-20px;" onclick="signersResize(this)">
-                                        <em class="fa fa-minus" style="color:gray"></em>
-                                    </a>
-                                </div>
-                                <div id="Signers" class="">
-                                    <div class="signers_expanded">
-                                        <div role="alert" class="alert alert-leaf">
-                                            <div class="row"> <div class="col-xs-20">
-                                                <strong>Signed!</strong>  The document signed by ÇAĞDAŞ AYDOĞAN at 2024-01-07 11:19:14 GMT+03:00.</div>
-                                                <div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-0').toggle()" style="cursor:pointer">Detail</span>
+                                        <div id="signer-0" style="display:none;padding-top:10px;background-color:white;color:gray;">
+                                            <div class="form-horizontal">  
+                                                <div class="form-group">    
+                                                    <div class="col-xs-6">Signed By</div>    
+                                                    <div class="col-xs-18">C=TR, OU=popCode - 04022735, SERIALNUMBER=10087589930, CN=ÇAĞDAŞ AYDOĞAN</div>  
+                                                </div>  
+                                                <div class="form-group">    
+                                                    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    
+                                                    <div class="col-xs-18">1A879FC86344F405    </div>  
+                                                </div>  
+                                                <div class="form-group">    
+                                                    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    
+                                                    <div class="col-xs-18">null    </div>  
+                                                </div>  
+                                                <div class="form-group">    
+                                                    <div class="col-xs-6">Reason    </div>    
+                                                    <div class="col-xs-18">    </div>  
+                                                </div>  
+                                                <div class="form-group">    
+                                                    <div class="col-xs-6">Location    </div>    
+                                                    <div class="col-xs-18">    </div>  
+                                                </div>  
+                                                <div class="form-group">    
+                                                    <div class="col-xs-6">Certificate Chain    </div>    
+                                                    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=E-GÜVEN&nbsp;Kök&nbsp;Elektronik&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=Turkcell&nbsp;Mobil&nbsp;NES&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;OU=popCode&nbsp;-&nbsp;04022735,&nbsp;SERIALNUMBER=10087589930,&nbsp;CN=ÇAĞDAŞ&nbsp;AYDOĞAN    </div>  
                                                 </div>
                                             </div>
-    
-                                            <div id="signer-0" style="display:none;padding-top:10px;background-color:white;color:gray;">
-                                                <div class="form-horizontal">  
+                                        </div> 
+                                    </div>
+                                    
+                                    <div role="alert" class="alert alert-gray">
+                                        <div class="row"> 
+                                            <div class="col-xs-20">
+                                                <strong>Time stamped!</strong>   The document is time stamped by Kamu SM Zaman Damgasi Sunucusu Surum 7-S5 at 2024-01-07 11:18:33 GMT+03:00.
+                                            </div>
+                                            <div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-1').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-1" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">CN=Kamu SM Zaman Damgasi Sunucusu Surum 7-S5, O=TUBITAK, C=TR</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">7FB8542F0340    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•CN=Kamu&nbsp;SM&nbsp;Kök&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;-&nbsp;Sürüm&nbsp;6,&nbsp;OU=BİLGEM,&nbsp;O=Türkiye&nbsp;Bilimsel&nbsp;ve&nbsp;Teknolojik&nbsp;Araştırma&nbsp;Kurumu&nbsp;-&nbsp;TÜBİTAK,&nbsp;L=Gebze&nbsp;-&nbsp;Kocaeli,&nbsp;C=TR<br>&nbsp;&nbsp;&nbsp;•CN=Kamu&nbsp;SM&nbsp;Zaman&nbsp;Damgasi&nbsp;Sunucusu&nbsp;Surum&nbsp;7-S5,&nbsp;O=TUBITAK,&nbsp;C=TR    </div>  </div></div></div> 
+                                    </div>
+                                    
+                                    <div role="alert" class="alert alert-leaf">
+                                        <div class="row"> <div class="col-xs-20"><strong>Signed!</strong>  The document signed by FATİH ŞAHİN at 2024-01-07 12:04:30 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-2').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-2" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">C=TR, OU=popCode - 33776945, SERIALNUMBER=54391588036, CN=ELİF KAYA</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">06CB85D1B5EFD183    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=E-GÜVEN&nbsp;Kök&nbsp;Elektronik&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=Turkcell&nbsp;Mobil&nbsp;NES&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;OU=popCode&nbsp;-&nbsp;33776945,&nbsp;SERIALNUMBER=54391588036,&nbsp;CN=ELİF&nbsp;KAYA    </div>  </div></div></div> 
+                                    </div>
+                                    
+                                    <div role="alert" class="alert alert-gray">
+                                        <div class="row"> <div class="col-xs-20"><strong>Time stamped!</strong>   The document is time stamped by Kamu SM Zaman Damgasi Sunucusu Surum 7-S5 at 2024-01-07 12:01:50 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-3').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-3" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">CN=Kamu SM Zaman Damgasi Sunucusu Surum 7-S5, O=TUBITAK, C=TR</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">7FB8542F0340    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•CN=Kamu&nbsp;SM&nbsp;Kök&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;-&nbsp;Sürüm&nbsp;6,&nbsp;OU=BİLGEM,&nbsp;O=Türkiye&nbsp;Bilimsel&nbsp;ve&nbsp;Teknolojik&nbsp;Araştırma&nbsp;Kurumu&nbsp;-&nbsp;TÜBİTAK,&nbsp;L=Gebze&nbsp;-&nbsp;Kocaeli,&nbsp;C=TR<br>&nbsp;&nbsp;&nbsp;•CN=Kamu&nbsp;SM&nbsp;Zaman&nbsp;Damgasi&nbsp;Sunucusu&nbsp;Surum&nbsp;7-S5,&nbsp;O=TUBITAK,&nbsp;C=TR    </div>  </div></div></div> 
+                                    </div>
+                                    
+                                    <div role="alert" class="alert alert-leaf">
+                                        <div class="row"> <div class="col-xs-20"><strong>Signed!</strong>  The document signed by ALPER YUNUS KOCAMAN at 2024-01-07 12:21:25 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-4').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-4" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">C=TR, OU=popCode - 07489275, SERIALNUMBER=18997370150, CN=ALPER YUNUS KOCAMAN</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">6B87E6A1042502CA    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=E-GÜVEN&nbsp;Kök&nbsp;Elektronik&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=Turkcell&nbsp;Mobil&nbsp;NES&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;OU=popCode&nbsp;-&nbsp;07489275,&nbsp;SERIALNUMBER=18997370150,&nbsp;CN=ALPER&nbsp;YUNUS&nbsp;KOCAMAN    </div>  </div></div></div> 
+                                    </div>
+                                    
+                                    <div role="alert" class="alert alert-gray">
+                                        <div class="row"> <div class="col-xs-20"><strong>Time stamped!</strong>   The document is time stamped by Kamu SM Zaman Damgasi Sunucusu Surum 7-S5 at 2024-01-07 12:18:36 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-5').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-5" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">CN=Kamu SM Zaman Damgasi Sunucusu Surum 7-S5, O=TUBITAK, C=TR</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">7FB8542F0340    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•CN=Kamu&nbsp;SM&nbsp;Kök&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;-&nbsp;Sürüm&nbsp;6,&nbsp;OU=BİLGEM,&nbsp;O=Türkiye&nbsp;Bilimsel&nbsp;ve&nbsp;Teknolojik&nbsp;Araştırma&nbsp;Kurumu&nbsp;-&nbsp;TÜBİTAK,&nbsp;L=Gebze&nbsp;-&nbsp;Kocaeli,&nbsp;C=TR<br>&nbsp;&nbsp;&nbsp;•CN=Kamu&nbsp;SM&nbsp;Zaman&nbsp;Damgasi&nbsp;Sunucusu&nbsp;Surum&nbsp;7-S5,&nbsp;O=TUBITAK,&nbsp;C=TR    </div>  </div></div></div> 
+                                    </div>
+                                </div>
+                                
+                                <div class="signers_collapsed" style="display:none">
+                                    
+                                    <div class="btn-group mb-sm">
+                                        <button type="button" data-="" toggle="dropdown" class="btn dropdown-toggle btn-default" aria-="" expanded="false">default  <span class="caret"></span></button>  
+                                        <ul role="menu" class="dropdown-menu">
+                                            <li>
+                                                <div role="alert" class="alert alert-leaf">
+                                                    <div class="row"> <div class="col-xs-20"><strong>Signed!</strong>  The document signed by ÇAĞDAŞ AYDOĞAN at 2024-01-07 11:19:14 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-0').toggle()" style="cursor:pointer">Detail</span></div>
+                                                </div>
+                                                <div id="signer-0" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  
                                                     <div class="form-group">    
                                                         <div class="col-xs-6">Signed By</div>    
                                                         <div class="col-xs-18">C=TR, OU=popCode - 04022735, SERIALNUMBER=10087589930, CN=ÇAĞDAŞ AYDOĞAN</div>  
@@ -353,14 +356,15 @@ html {
                                                     <div class="form-group">    
                                                         <div class="col-xs-6">Certificate Serial Number (Hex)</div>    
                                                         <div class="col-xs-18">1A879FC86344F405    </div>  
-                                                    </div>  
-                                                    <div class="form-group">    
+                                                    </div>  <div class="form-group">    
                                                         <div class="col-xs-6">Certificat Serial Number (Dec)</div>    
                                                         <div class="col-xs-18">null    </div>  
                                                     </div>  
                                                     <div class="form-group">    
                                                         <div class="col-xs-6">Reason    </div>    
-                                                        <div class="col-xs-18">    </div>  
+                                                        <div class="col-xs-18">    
+
+                                                        </div>  
                                                     </div>  
                                                     <div class="form-group">    
                                                         <div class="col-xs-6">Location    </div>    
@@ -368,199 +372,131 @@ html {
                                                     </div>  
                                                     <div class="form-group">    
                                                         <div class="col-xs-6">Certificate Chain    </div>    
-                                                        <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=E-GÜVEN&nbsp;Kök&nbsp;Elektronik&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=Turkcell&nbsp;Mobil&nbsp;NES&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;OU=popCode&nbsp;-&nbsp;04022735,&nbsp;SERIALNUMBER=10087589930,&nbsp;CN=ÇAĞDAŞ&nbsp;AYDOĞAN    </div>  
+                                                        <div class="col-xs-18">•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=E-GÜVEN&nbsp;Kök&nbsp;Elektronik&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=Turkcell&nbsp;Mobil&nbsp;NES&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;OU=popCode&nbsp;-&nbsp;04022735,&nbsp;SERIALNUMBER=10087589930,&nbsp;CN=ÇAĞDAŞ&nbsp;AYDOĞAN    
+                                                        </div>  
                                                     </div>
                                                 </div>
                                             </div> 
-                                        </div>
-                                        
-                                        <div role="alert" class="alert alert-gray">
-                                            <div class="row"> 
-                                                <div class="col-xs-20">
-                                                    <strong>Time stamped!</strong>   The document is time stamped by Kamu SM Zaman Damgasi Sunucusu Surum 7-S5 at 2024-01-07 11:18:33 GMT+03:00.
-                                                </div>
-                                                <div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-1').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-1" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">CN=Kamu SM Zaman Damgasi Sunucusu Surum 7-S5, O=TUBITAK, C=TR</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">7FB8542F0340    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•CN=Kamu&nbsp;SM&nbsp;Kök&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;-&nbsp;Sürüm&nbsp;6,&nbsp;OU=BİLGEM,&nbsp;O=Türkiye&nbsp;Bilimsel&nbsp;ve&nbsp;Teknolojik&nbsp;Araştırma&nbsp;Kurumu&nbsp;-&nbsp;TÜBİTAK,&nbsp;L=Gebze&nbsp;-&nbsp;Kocaeli,&nbsp;C=TR<br>&nbsp;&nbsp;&nbsp;•CN=Kamu&nbsp;SM&nbsp;Zaman&nbsp;Damgasi&nbsp;Sunucusu&nbsp;Surum&nbsp;7-S5,&nbsp;O=TUBITAK,&nbsp;C=TR    </div>  </div></div></div> 
-                                        </div>
-                                        
-                                        <div role="alert" class="alert alert-leaf">
-                                            <div class="row"> <div class="col-xs-20"><strong>Signed!</strong>  The document signed by FATİH ŞAHİN at 2024-01-07 12:04:30 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-2').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-2" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">C=TR, OU=popCode - 33776945, SERIALNUMBER=54391588036, CN=ELİF KAYA</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">06CB85D1B5EFD183    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=E-GÜVEN&nbsp;Kök&nbsp;Elektronik&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=Turkcell&nbsp;Mobil&nbsp;NES&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;OU=popCode&nbsp;-&nbsp;33776945,&nbsp;SERIALNUMBER=54391588036,&nbsp;CN=ELİF&nbsp;KAYA    </div>  </div></div></div> 
-                                        </div>
-                                        
-                                        <div role="alert" class="alert alert-gray">
-                                            <div class="row"> <div class="col-xs-20"><strong>Time stamped!</strong>   The document is time stamped by Kamu SM Zaman Damgasi Sunucusu Surum 7-S5 at 2024-01-07 12:01:50 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-3').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-3" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">CN=Kamu SM Zaman Damgasi Sunucusu Surum 7-S5, O=TUBITAK, C=TR</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">7FB8542F0340    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•CN=Kamu&nbsp;SM&nbsp;Kök&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;-&nbsp;Sürüm&nbsp;6,&nbsp;OU=BİLGEM,&nbsp;O=Türkiye&nbsp;Bilimsel&nbsp;ve&nbsp;Teknolojik&nbsp;Araştırma&nbsp;Kurumu&nbsp;-&nbsp;TÜBİTAK,&nbsp;L=Gebze&nbsp;-&nbsp;Kocaeli,&nbsp;C=TR<br>&nbsp;&nbsp;&nbsp;•CN=Kamu&nbsp;SM&nbsp;Zaman&nbsp;Damgasi&nbsp;Sunucusu&nbsp;Surum&nbsp;7-S5,&nbsp;O=TUBITAK,&nbsp;C=TR    </div>  </div></div></div> 
-                                        </div>
-                                        
-                                        <div role="alert" class="alert alert-leaf">
-                                            <div class="row"> <div class="col-xs-20"><strong>Signed!</strong>  The document signed by ALPER YUNUS KOCAMAN at 2024-01-07 12:21:25 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-4').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-4" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">C=TR, OU=popCode - 07489275, SERIALNUMBER=18997370150, CN=ALPER YUNUS KOCAMAN</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">6B87E6A1042502CA    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=E-GÜVEN&nbsp;Kök&nbsp;Elektronik&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=Turkcell&nbsp;Mobil&nbsp;NES&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;OU=popCode&nbsp;-&nbsp;07489275,&nbsp;SERIALNUMBER=18997370150,&nbsp;CN=ALPER&nbsp;YUNUS&nbsp;KOCAMAN    </div>  </div></div></div> 
-                                        </div>
-                                        
-                                        <div role="alert" class="alert alert-gray">
-                                            <div class="row"> <div class="col-xs-20"><strong>Time stamped!</strong>   The document is time stamped by Kamu SM Zaman Damgasi Sunucusu Surum 7-S5 at 2024-01-07 12:18:36 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-5').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-5" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">CN=Kamu SM Zaman Damgasi Sunucusu Surum 7-S5, O=TUBITAK, C=TR</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">7FB8542F0340    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•CN=Kamu&nbsp;SM&nbsp;Kök&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;-&nbsp;Sürüm&nbsp;6,&nbsp;OU=BİLGEM,&nbsp;O=Türkiye&nbsp;Bilimsel&nbsp;ve&nbsp;Teknolojik&nbsp;Araştırma&nbsp;Kurumu&nbsp;-&nbsp;TÜBİTAK,&nbsp;L=Gebze&nbsp;-&nbsp;Kocaeli,&nbsp;C=TR<br>&nbsp;&nbsp;&nbsp;•CN=Kamu&nbsp;SM&nbsp;Zaman&nbsp;Damgasi&nbsp;Sunucusu&nbsp;Surum&nbsp;7-S5,&nbsp;O=TUBITAK,&nbsp;C=TR    </div>  </div></div></div> 
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="signers_collapsed" style="display:none">
-                                        
-                                        <div class="btn-group mb-sm">
-                                            <button type="button" data-="" toggle="dropdown" class="btn dropdown-toggle btn-default" aria-="" expanded="false">default  <span class="caret"></span></button>  
-                                            <ul role="menu" class="dropdown-menu">
-                                                <li>
-                                                    <div role="alert" class="alert alert-leaf">
-                                                        <div class="row"> <div class="col-xs-20"><strong>Signed!</strong>  The document signed by ÇAĞDAŞ AYDOĞAN at 2024-01-07 11:19:14 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-0').toggle()" style="cursor:pointer">Detail</span></div>
-                                                    </div>
-                                                    <div id="signer-0" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  
-                                                        <div class="form-group">    
-                                                            <div class="col-xs-6">Signed By</div>    
-                                                            <div class="col-xs-18">C=TR, OU=popCode - 04022735, SERIALNUMBER=10087589930, CN=ÇAĞDAŞ AYDOĞAN</div>  
-                                                        </div>  
-                                                        <div class="form-group">    
-                                                            <div class="col-xs-6">Certificate Serial Number (Hex)</div>    
-                                                            <div class="col-xs-18">1A879FC86344F405    </div>  
-                                                        </div>  <div class="form-group">    
-                                                            <div class="col-xs-6">Certificat Serial Number (Dec)</div>    
-                                                            <div class="col-xs-18">null    </div>  
-                                                        </div>  
-                                                        <div class="form-group">    
-                                                            <div class="col-xs-6">Reason    </div>    
-                                                            <div class="col-xs-18">    
-    
-                                                            </div>  
-                                                        </div>  
-                                                        <div class="form-group">    
-                                                            <div class="col-xs-6">Location    </div>    
-                                                            <div class="col-xs-18">    </div>  
-                                                        </div>  
-                                                        <div class="form-group">    
-                                                            <div class="col-xs-6">Certificate Chain    </div>    
-                                                            <div class="col-xs-18">•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=E-GÜVEN&nbsp;Kök&nbsp;Elektronik&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=Turkcell&nbsp;Mobil&nbsp;NES&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;OU=popCode&nbsp;-&nbsp;04022735,&nbsp;SERIALNUMBER=10087589930,&nbsp;CN=ÇAĞDAŞ&nbsp;AYDOĞAN    
-                                                            </div>  
-                                                        </div>
-                                                    </div>
-                                                </div> 
-                                                </div>
-                                            </li>
-                                        
-                                            <li>
-                                                <div role="alert" class="alert alert-gray"><div class="row"> <div class="col-xs-20"><strong>Time stamped!</strong>   The document is time stamped by Kamu SM Zaman Damgasi Sunucusu Surum 7-S5 at 2022-11-11 15:39:33 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-1').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-1" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">CN=Kamu SM Zaman Damgasi Sunucusu Surum 7-S5, O=TUBITAK, C=TR</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">7FB8542F0340    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•CN=Kamu&nbsp;SM&nbsp;Kök&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;-&nbsp;Sürüm&nbsp;6,&nbsp;OU=BİLGEM,&nbsp;O=Türkiye&nbsp;Bilimsel&nbsp;ve&nbsp;Teknolojik&nbsp;Araştırma&nbsp;Kurumu&nbsp;-&nbsp;TÜBİTAK,&nbsp;L=Gebze&nbsp;-&nbsp;Kocaeli,&nbsp;C=TR<br>&nbsp;&nbsp;&nbsp;•CN=Kamu&nbsp;SM&nbsp;Zaman&nbsp;Damgasi&nbsp;Sunucusu&nbsp;Surum&nbsp;7-S5,&nbsp;O=TUBITAK,&nbsp;C=TR    </div>  </div></div></div> 
                                             </div>
                                         </li>
-                                        
+                                    
                                         <li>
-                                            <div role="alert" class="alert alert-leaf"><div class="row"> <div class="col-xs-20"><strong>Signed!</strong>  The document signed by ELİF KAYA at 2022-11-11 15:41:30 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-2').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-2" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">C=TR, OU=popCode - 33776945, SERIALNUMBER=54391588036, CN=ELİF KAYA</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">06CB85D1B5EFD183    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=E-GÜVEN&nbsp;Kök&nbsp;Elektronik&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=Turkcell&nbsp;Mobil&nbsp;NES&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;OU=popCode&nbsp;-&nbsp;33776945,&nbsp;SERIALNUMBER=54391588036,&nbsp;CN=ELİF&nbsp;KAYA    </div>  </div></div></div> 
+                                            <div role="alert" class="alert alert-gray"><div class="row"> <div class="col-xs-20"><strong>Time stamped!</strong>   The document is time stamped by Kamu SM Zaman Damgasi Sunucusu Surum 7-S5 at 2022-11-11 15:39:33 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-1').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-1" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">CN=Kamu SM Zaman Damgasi Sunucusu Surum 7-S5, O=TUBITAK, C=TR</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">7FB8542F0340    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•CN=Kamu&nbsp;SM&nbsp;Kök&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;-&nbsp;Sürüm&nbsp;6,&nbsp;OU=BİLGEM,&nbsp;O=Türkiye&nbsp;Bilimsel&nbsp;ve&nbsp;Teknolojik&nbsp;Araştırma&nbsp;Kurumu&nbsp;-&nbsp;TÜBİTAK,&nbsp;L=Gebze&nbsp;-&nbsp;Kocaeli,&nbsp;C=TR<br>&nbsp;&nbsp;&nbsp;•CN=Kamu&nbsp;SM&nbsp;Zaman&nbsp;Damgasi&nbsp;Sunucusu&nbsp;Surum&nbsp;7-S5,&nbsp;O=TUBITAK,&nbsp;C=TR    </div>  </div></div></div> 
                                         </div>
                                     </li>
                                     
                                     <li>
-                                        <div role="alert" class="alert alert-gray"><div class="row"> <div class="col-xs-20"><strong>Time stamped!</strong>   The document is time stamped by Kamu SM Zaman Damgasi Sunucusu Surum 7-S5 at 2022-11-11 15:40:50 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-3').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-3" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">CN=Kamu SM Zaman Damgasi Sunucusu Surum 7-S5, O=TUBITAK, C=TR</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">7FB8542F0340    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•CN=Kamu&nbsp;SM&nbsp;Kök&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;-&nbsp;Sürüm&nbsp;6,&nbsp;OU=BİLGEM,&nbsp;O=Türkiye&nbsp;Bilimsel&nbsp;ve&nbsp;Teknolojik&nbsp;Araştırma&nbsp;Kurumu&nbsp;-&nbsp;TÜBİTAK,&nbsp;L=Gebze&nbsp;-&nbsp;Kocaeli,&nbsp;C=TR<br>&nbsp;&nbsp;&nbsp;•CN=Kamu&nbsp;SM&nbsp;Zaman&nbsp;Damgasi&nbsp;Sunucusu&nbsp;Surum&nbsp;7-S5,&nbsp;O=TUBITAK,&nbsp;C=TR    </div>  </div></div></div> 
+                                        <div role="alert" class="alert alert-leaf"><div class="row"> <div class="col-xs-20"><strong>Signed!</strong>  The document signed by ELİF KAYA at 2022-11-11 15:41:30 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-2').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-2" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">C=TR, OU=popCode - 33776945, SERIALNUMBER=54391588036, CN=ELİF KAYA</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">06CB85D1B5EFD183    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=E-GÜVEN&nbsp;Kök&nbsp;Elektronik&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=Turkcell&nbsp;Mobil&nbsp;NES&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;OU=popCode&nbsp;-&nbsp;33776945,&nbsp;SERIALNUMBER=54391588036,&nbsp;CN=ELİF&nbsp;KAYA    </div>  </div></div></div> 
                                     </div>
                                 </li>
                                 
                                 <li>
-                                    <div role="alert" class="alert alert-leaf"><div class="row"> <div class="col-xs-20"><strong>Signed!</strong>  The document signed by ALPER YUNUS KOCAMAN at 2022-11-11 15:45:25 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-4').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-4" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">C=TR, OU=popCode - 07489275, SERIALNUMBER=18997370150, CN=ALPER YUNUS KOCAMAN</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">6B87E6A1042502CA    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=E-GÜVEN&nbsp;Kök&nbsp;Elektronik&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=Turkcell&nbsp;Mobil&nbsp;NES&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;OU=popCode&nbsp;-&nbsp;07489275,&nbsp;SERIALNUMBER=18997370150,&nbsp;CN=ALPER&nbsp;YUNUS&nbsp;KOCAMAN    </div>  </div></div></div> 
+                                    <div role="alert" class="alert alert-gray"><div class="row"> <div class="col-xs-20"><strong>Time stamped!</strong>   The document is time stamped by Kamu SM Zaman Damgasi Sunucusu Surum 7-S5 at 2022-11-11 15:40:50 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-3').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-3" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">CN=Kamu SM Zaman Damgasi Sunucusu Surum 7-S5, O=TUBITAK, C=TR</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">7FB8542F0340    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•CN=Kamu&nbsp;SM&nbsp;Kök&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;-&nbsp;Sürüm&nbsp;6,&nbsp;OU=BİLGEM,&nbsp;O=Türkiye&nbsp;Bilimsel&nbsp;ve&nbsp;Teknolojik&nbsp;Araştırma&nbsp;Kurumu&nbsp;-&nbsp;TÜBİTAK,&nbsp;L=Gebze&nbsp;-&nbsp;Kocaeli,&nbsp;C=TR<br>&nbsp;&nbsp;&nbsp;•CN=Kamu&nbsp;SM&nbsp;Zaman&nbsp;Damgasi&nbsp;Sunucusu&nbsp;Surum&nbsp;7-S5,&nbsp;O=TUBITAK,&nbsp;C=TR    </div>  </div></div></div> 
                                 </div>
                             </li>
                             
                             <li>
-                                <div role="alert" class="alert alert-gray"><div class="row"> <div class="col-xs-20"><strong>Time stamped!</strong>   The document is time stamped by Kamu SM Zaman Damgasi Sunucusu Surum 7-S5 at 2022-11-11 15:44:36 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-5').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-5" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">CN=Kamu SM Zaman Damgasi Sunucusu Surum 7-S5, O=TUBITAK, C=TR</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">7FB8542F0340    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•CN=Kamu&nbsp;SM&nbsp;Kök&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;-&nbsp;Sürüm&nbsp;6,&nbsp;OU=BİLGEM,&nbsp;O=Türkiye&nbsp;Bilimsel&nbsp;ve&nbsp;Teknolojik&nbsp;Araştırma&nbsp;Kurumu&nbsp;-&nbsp;TÜBİTAK,&nbsp;L=Gebze&nbsp;-&nbsp;Kocaeli,&nbsp;C=TR<br>&nbsp;&nbsp;&nbsp;•CN=Kamu&nbsp;SM&nbsp;Zaman&nbsp;Damgasi&nbsp;Sunucusu&nbsp;Surum&nbsp;7-S5,&nbsp;O=TUBITAK,&nbsp;C=TR    </div>  </div></div></div> 
+                                <div role="alert" class="alert alert-leaf"><div class="row"> <div class="col-xs-20"><strong>Signed!</strong>  The document signed by ALPER YUNUS KOCAMAN at 2022-11-11 15:45:25 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-4').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-4" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">C=TR, OU=popCode - 07489275, SERIALNUMBER=18997370150, CN=ALPER YUNUS KOCAMAN</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">6B87E6A1042502CA    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=E-GÜVEN&nbsp;Kök&nbsp;Elektronik&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;O=Elektronik&nbsp;Bilgi&nbsp;Güvenliği&nbsp;A.Ş.,&nbsp;CN=Turkcell&nbsp;Mobil&nbsp;NES&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;S7<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•C=TR,&nbsp;OU=popCode&nbsp;-&nbsp;07489275,&nbsp;SERIALNUMBER=18997370150,&nbsp;CN=ALPER&nbsp;YUNUS&nbsp;KOCAMAN    </div>  </div></div></div> 
                             </div>
-                        </li>  
-                    </ul>
-                </div>
-                                    
+                        </li>
+                        
+                        <li>
+                            <div role="alert" class="alert alert-gray"><div class="row"> <div class="col-xs-20"><strong>Time stamped!</strong>   The document is time stamped by Kamu SM Zaman Damgasi Sunucusu Surum 7-S5 at 2022-11-11 15:44:36 GMT+03:00.</div><div class="col-xs-4">&nbsp;&nbsp; <span class="pull-right" onclick="$('#signer-5').toggle()" style="cursor:pointer">Detail</span></div></div><div id="signer-5" style="display:none;padding-top:10px;background-color:white;color:gray;"><div class="form-horizontal">  <div class="form-group">    <div class="col-xs-6">Signed By</div>    <div class="col-xs-18">CN=Kamu SM Zaman Damgasi Sunucusu Surum 7-S5, O=TUBITAK, C=TR</div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Serial Number (Hex)</div>    <div class="col-xs-18">7FB8542F0340    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificat Serial Number (Dec)</div>    <div class="col-xs-18">null    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Reason    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Location    </div>    <div class="col-xs-18">    </div>  </div>  <div class="form-group">    <div class="col-xs-6">Certificate Chain    </div>    <div class="col-xs-18" style="word-wrap: break-word;word-break: break-all;white-space:normal;">•CN=Kamu&nbsp;SM&nbsp;Kök&nbsp;Sertifika&nbsp;Hizmet&nbsp;Sağlayıcısı&nbsp;-&nbsp;Sürüm&nbsp;6,&nbsp;OU=BİLGEM,&nbsp;O=Türkiye&nbsp;Bilimsel&nbsp;ve&nbsp;Teknolojik&nbsp;Araştırma&nbsp;Kurumu&nbsp;-&nbsp;TÜBİTAK,&nbsp;L=Gebze&nbsp;-&nbsp;Kocaeli,&nbsp;C=TR<br>&nbsp;&nbsp;&nbsp;•CN=Kamu&nbsp;SM&nbsp;Zaman&nbsp;Damgasi&nbsp;Sunucusu&nbsp;Surum&nbsp;7-S5,&nbsp;O=TUBITAK,&nbsp;C=TR    </div>  </div></div></div> 
+                        </div>
+                    </li>  
+                </ul>
             </div>
                                 
         </div>
                             
     </div>
-                            
-    <div class="col-xs-24" style="overflow: auto; -webkit-overflow-scrolling: touch;">
-        <!-- Embed PDF using iframe -->
-        <iframe src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/raporm7kr60l2l36293a08bc0p-compressed.pdf?alt=media&token=ea6c1dbe-2e85-4251-8a4e-f8935c0e092b" width="100%" height="400px" frameborder="0"></iframe>
-    </div>
-    
-    
-    
-                      
-    </div>
-                   
+                        
+</div>
+                        
+<div class="col-xs-24" style="overflow: auto; -webkit-overflow-scrolling: touch;">
+    <!-- Embed PDF using iframe -->
+    <iframe src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/raporm7kr60l2l36293a08bc0p-compressed.pdf?alt=media&token=ea6c1dbe-2e85-4251-8a4e-f8935c0e092b" width="100%" height="400px" frameborder="0"></iframe>
+</div>
+
+
+
+                  
+</div>
+               
                 </div>
-    
-    
-                    
-                    
-                    
-              
-    </div>
-        </div>
-    </div>
 
-    </div>
-  </div>
 
+                
+                
+                
+          
 </div>
-
-<div class="panel-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-4">
-        Etikimza
-      </div>
-      <div class="col-xs-4 text-center custom-margin">
-        <span class="text-warning text-sm">
-          You can also download the document then verify signature(s) with
-          <a href="https://get.adobe.com/tr/reader/" target="_blank" style="text-wrap:none;white-space:nowrap;">Adobe Acrobat Reader</a>
-        </span>
-      </div>
-      
-      <div class="col-xs-4 text-right">
-        <div class="btn-group dropup">
-          <span data-toggle="dropdown" class="dropdown-toggle" aria-expanded="false" style="cursor:pointer;">
-            <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/usa_flag.png?alt=media&token=1dfd3c4c-032f-4751-8097-e6c336e5a0a6" style="height:20px;">
-            <span class="hidden-xs">English</span>
-            <span class="caret"></span>
-          </span>
-          <ul role="menu" class="dropdown-menu">
-            <li>
-              <a href="javascript:void(0)" onclick="changeLang('en')">
-                <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/usa_flag.png?alt=media&token=1dfd3c4c-032f-4751-8097-e6c336e5a0a6" style="height:20px;">
-                English
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" onclick="changeLang('tr')">
-                <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/turkey_flag.png?alt=media&token=a348af16-5e6d-4d29-bd86-9bb86d92a69e" style="height:20px;">
-                Türkçe
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" onclick="changeLang('es')">
-                <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/spain_flag.png?alt=media&token=d3187b55-56c0-48f7-9ef9-8fc29065b78f" style="height:20px;">
-                Español
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" onclick="changeLang('ru')">
-                <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/russia_flag.png?alt=media&token=6a5b8b70-e96e-4393-b8a8-e86c57717c11" style="height:20px;">
-                Pусский
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" onclick="changeLang('az')">
-                <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/az_flag.png?alt=media&token=c96bef0a-12a6-475e-b469-582e90212e59" style="height:20px;">
-                Azerbaycan
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
     </div>
-  </div>
+    <div class="panel-footer">
+        <div class="row">
+            <div class="col-xs-6">
+                Etikimza
+            </div>
+            <div class="col-xs-13 text-right">
+                <span class="text-warning text-sm">
+                    You can also download the document then verify signature(s) with
+                    <a href="https://get.adobe.com/tr/reader/" target="_blank" style="text-wrap:none;white-space:nowrap;">Adobe Acrobat Reader</a>
+                </span>
+            </div>
+            <div class="col-xs-5">
+                <div class="btn-group dropup pull-right">
+                            <span data-toggle="dropdown" class="dropdown-toggle" aria-expanded="false" style="cursor:pointer;">
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/usa_flag.png?alt=media&token=1dfd3c4c-032f-4751-8097-e6c336e5a0a6" style="height:20px;">
+                                    <span class="hidden-xs">
+                                        English
+                                    </span>
+                                <span class="caret"></span>
+                            </span>
+                            <ul role="menu" class="dropdown-menu">
+                                    <li>
+                                        <a href="javascript:void(0)" onclick="changeLang('en')">
+                                            <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/usa_flag.png?alt=media&token=1dfd3c4c-032f-4751-8097-e6c336e5a0a6" style="height:20px;">
+                                            English
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" onclick="changeLang('tr')">
+                                            <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/turkey_flag.png?alt=media&token=a348af16-5e6d-4d29-bd86-9bb86d92a69e" style="height:20px;">
+                                            Türkçe
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" onclick="changeLang('es')">
+                                            <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/spain_flag.png?alt=media&token=d3187b55-56c0-48f7-9ef9-8fc29065b78f" style="height:20px;">
+                                            Español
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" onclick="changeLang('ru')">
+                                            <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/russia_flag.png?alt=media&token=6a5b8b70-e96e-4393-b8a8-e86c57717c11" style="height:20px;">
+                                            Pусский
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" onclick="changeLang('az')">
+                                            <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/az_flag.png?alt=media&token=c96bef0a-12a6-475e-b469-582e90212e59" style="height:20px;">
+                                            Azerbaycan
+                                        </a>
+                                    </li>
+                            </ul>
+                        
+                    </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 
-
-
-<script src="/Scripts/app/modules/bootstrap-start.js"></script>
+        </div>
+    </section>
+	
+	
+	<script src="/Scripts/app/modules/bootstrap-start.js"></script>
 <script src="/Scripts/app/modules/calendar.js"></script>
 <script src="/Scripts/app/modules/classyloader.js"></script>
 <script src="/Scripts/app/modules/clear-storage.js"></script>
