@@ -72,14 +72,6 @@ textarea {
     margin: 0;
 }
 
-input[type="hidden" i] {
-    appearance: none;
-    background-color: initial;
-    cursor: default;
-    display: none !important;
-    padding: initial;
-    border: initial;
-}
 
 .col-md-4 {
     width: 16.66666667%;
@@ -417,7 +409,7 @@ html {
                         
 <div class="col-xs-24" style="overflow: auto; -webkit-overflow-scrolling: touch;">
     <!-- Embed PDF using iframe -->
-    <iframe src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/raporm7kr60l2l36293a08bc0p-compressed.pdf?alt=media&token=ea6c1dbe-2e85-4251-8a4e-f8935c0e092b" width="100%" height="300px" frameborder="0"></iframe>
+    <iframe src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/raporm7kr60l2l36293a08bc0p-compressed.pdf?alt=media&token=ea6c1dbe-2e85-4251-8a4e-f8935c0e092b" width="100%" height="400px" frameborder="0"></iframe>
 </div>
 
 
@@ -463,25 +455,25 @@ html {
                                     </li>
                                     <li>
                                         <a href="javascript:void(0)" onclick="changeLang('tr')">
-                                            <img src="/Content/CountryFlags/turkey_flag.png" style="height:20px;">
+                                            <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/turkey_flag.png?alt=media&token=a348af16-5e6d-4d29-bd86-9bb86d92a69e" style="height:20px;">
                                             Türkçe
                                         </a>
                                     </li>
                                     <li>
                                         <a href="javascript:void(0)" onclick="changeLang('es')">
-                                            <img src="/Content/CountryFlags/spain_flag.png" style="height:20px;">
+                                            <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/spain_flag.png?alt=media&token=d3187b55-56c0-48f7-9ef9-8fc29065b78f" style="height:20px;">
                                             Español
                                         </a>
                                     </li>
                                     <li>
                                         <a href="javascript:void(0)" onclick="changeLang('ru')">
-                                            <img src="/Content/CountryFlags/russia_flag.png" style="height:20px;">
+                                            <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/russia_flag.png?alt=media&token=6a5b8b70-e96e-4393-b8a8-e86c57717c11" style="height:20px;">
                                             Pусский
                                         </a>
                                     </li>
                                     <li>
                                         <a href="javascript:void(0)" onclick="changeLang('az')">
-                                            <img src="/Content/CountryFlags/az_flag.png" style="height:20px;">
+                                            <img src="https://firebasestorage.googleapis.com/v0/b/witty-41a8e.appspot.com/o/az_flag.png?alt=media&token=c96bef0a-12a6-475e-b469-582e90212e59" style="height:20px;">
                                             Azerbaycan
                                         </a>
                                     </li>
@@ -492,22 +484,103 @@ html {
         </div>
     </div>
 </div>
-<script type="text/javascript">
-function renewCatpcha() {
-        var reqid = Number(new Date());
-        $('#CaptchaImage').attr('src', '/Home/GetCaptcha?name=Captcha&reqid=' + reqid);
-}
-
-</script>
 
 
         </div>
     </section>
+	
+	
+	<script src="/Scripts/app/modules/bootstrap-start.js"></script>
+<script src="/Scripts/app/modules/calendar.js"></script>
+<script src="/Scripts/app/modules/classyloader.js"></script>
+<script src="/Scripts/app/modules/clear-storage.js"></script>
+<script src="/Scripts/app/modules/constants.js"></script>
+<script src="/Scripts/app/modules/flatdoc.js"></script>
+<script src="/Scripts/app/modules/trigger-resize.js"></script>
+<script src="/Scripts/app/modules/fullscreen.js"></script>
+<script src="/Scripts/app/modules/gmap.js"></script>
+<script src="/Scripts/app/modules/load-css.js"></script>
+<script src="/Scripts/app/modules/localize.js"></script>
+<script src="/Scripts/app/modules/maps-vector.js"></script>
+<script src="/Scripts/app/modules/navbar-search.js"></script>
+<script src="/Scripts/app/modules/notify.js"></script>
+<script src="/Scripts/app/modules/now.js"></script>
+<script src="/Scripts/app/modules/panel-tools.js"></script>
+<script src="/Scripts/app/modules/play-animation.js"></script>
+<script src="/Scripts/app/modules/porlets.js"></script>
+<script src="/Scripts/app/modules/sidebar.js"></script>
+<script src="/Scripts/app/modules/skycons.js"></script>
+<script src="/Scripts/app/modules/slimscroll.js"></script>
+<script src="/Scripts/app/modules/sparkline.js"></script>
+<script src="/Scripts/app/modules/table-checkall.js"></script>
+<script src="/Scripts/app/modules/toggle-state.js"></script>
+<script src="/Scripts/app/modules/utils.js"></script>
+<script src="/Scripts/app/modules/chart.js"></script>
+<script src="/Scripts/app/modules/morris.js"></script>
+<script src="/Scripts/app/modules/rickshaw.js"></script>
+<script src="/Scripts/app/modules/chartist.js"></script>
+<script src="/Scripts/app/modules/tour.js"></script>
+<script src="/Scripts/app/modules/color-picker.js"></script>
+<script src="/Scripts/app/modules/imagecrop.js"></script>
+<script src="/Scripts/app/modules/chart-easypie.js"></script>
+<script src="/Scripts/app/app.init.js"></script>
+
+
+     <script type="text/javascript">
+         function reCenterNavText() {              
+            var nt = document.getElementById('navTitle');
+            if (nt != null && nt != "undefined") nt = nt.offsetWidth; else nt = 0;
+            var ntl = document.getElementById('navTitleLeft');
+            if (ntl != null && ntl != "undefined") ntl = ntl.offsetWidth; else ntl = 0;            
+            var ntw = document.getElementById('navTitleRight');             
+            if (ntw != null && ntw != "undefined") ntw = ntw.offsetWidth; else ntw = 0;
+            var wdth = (nt - ntl - ntw) * 100 / nt - 30; wdth = Math.floor(wdth);
+             var cNtc = document.getElementById('navTitleCenter');
+             if (cNtc != null) {
+                 cNtc.style.width = wdth + "%";
+                 if (wdth < 20) cNtc.style.dispplay = 'none';
+                 else cNtc.style.dispplay = '';
+             }
+            //document.getElementById('navTitleCenter').style.width = (nt - ntl - ntw -)/2 + 'px';
+        }
+        reCenterNavText();
+        document.onresize = reCenterNavText;
+    </script>
+    <script type="text/javascript">
+            $(function () {
+                MsgBox.Text_Success     = "Başarılı";
+                MsgBox.Text_Warning     = "Uyarı";
+                MsgBox.Text_Error       = "Hata";
+                MsgBox.Text_Danger      = "İptal";
+                MsgBox.Text_Information = "Bilgi";
+                MsgBox.Text_Confirm     = "Paraf";
+                MsgBox.Text_ConfirmQuestion = "Emin misiniz?";
+                MsgBox.Text_ConfirmYes  = "Evet";
+                MsgBox.Text_ConfirmNo   = "Hayır";
+                MsgBox.Text_Ok          = "Tamam";
+                MsgBox.Text_PleaseWait  = "L&#252;tfen bekleyiniz";
+                MsgBox.Text_Cancel      = "İptal";
+                MsgBox.Redirecting      = "Y&#246;nlendiriliyor...";
+                MsgBox.PageNotFound     = "Sayfa Bulunamadı";
+                MsgBox.IsMobile         =  false;
+            });
+    </script>
+    <script src="/Scripts/modernizr-2.8.3.js"></script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/Scripts/jSignature/flashcanvas.js"></script>
+    <![endif]-->
     
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/Scripts/ayzet/bootstrap.state.js"></script>
+    <style>
+        .clearfix {
+            width: 100%;
+        }
+    </style>
+    <link href="/Content/lb/simple.css?v=638428356076791868" rel="stylesheet">
+
+<div id="my-extension-root" class="my-extension-root" style="width: 1020px; height: 1px; position: fixed; top: 0px; left: 24px; z-index: 2147483641; display: none;"></div>
+    
 
 </body>
 </html>
