@@ -8,18 +8,17 @@
     <title>https://dogrulama.tadebis.com.tr/Home/Index/un7j0um3l4f55bfbc5bf</title>
 <style>
 
-/* Your responsive CSS code here */
-.topnavbar-wrapper {
-    position: relative; /* Ensure proper positioning of the navbar */
-}
-
 .navbar {
-    min-height: 55px; /* Ensure navbar height is always visible */
-    max-height: 60px;
+    min-height: 50px; /* Ensure navbar height is always visible */
+    max-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 
 .navbar-brand img {
-    max-height: 60px; /* Ensure images are not larger than their containers */
+    max-height: 50px; /* Ensure images do not exceed the height of the navbar */
     width: auto;
     vertical-align: middle;
 }
@@ -28,6 +27,8 @@
     margin: 0 auto; /* Center the text horizontally */
     display: flex;
     align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -39,14 +40,7 @@
         background-repeat: repeat-x;
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF2B957A', endColorstr='#FF37BC9B', GradientType=1);
     }
-
-    .navbar-text {
-        color: #fff;
-        font-size: 1.5rem;
-    }
 }
-
-
 
 
 input,
@@ -149,6 +143,11 @@ html {
     color: #fff;
 }
 
+#docViewer {
+    width: 100%;
+    height: auto;
+}
+
 
 
 
@@ -156,62 +155,30 @@ html {
 </head>
 <body>
     <!-- Navigation bar -->
-
     <header class="topnavbar-wrapper">
-        <!-- START Top Navbar -->
         <nav class="navbar topnavbar">
-            <!-- START Navbar Header -->
             <div class="navbar-header">
-                <!-- Navbar Toggle Button for Mobile -->
-                <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- Navbar Brand -->
-                <a href="/Home/Index/un7j0um3l4f55bfbc5bf" class="navbar-brand">
-                    <!-- Brand Logo (Full Size) -->
-                    <div class="brand-logo" style="padding:0px;">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/gojet-2d6e3.appspot.com/o/logo.png?alt=media&token=ced38213-a6c7-44d6-9fa4-7237699b4384" alt="Etikimza" class="img-responsive">
-                    </div>
-                    <!-- Brand Logo (Collapsed) -->
-                    <div class="brand-logo-collapsed">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/gojet-2d6e3.appspot.com/o/logo.png?alt=media&token=ced38213-a6c7-44d6-9fa4-7237699b4384" alt="Etikimza" class="img-responsive">
-                    </div>
+                <a href="#" class="navbar-brand">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/wooproject-4c07a.appspot.com/o/etik%2Flogo.png?alt=media&token=de9c7ac3-a2b9-4540-b1cc-c92ab0f48f02
+                    " alt="Left Logo">
                 </a>
             </div>
-            <!-- END Navbar Header -->
-    
-            <!-- START Nav Wrapper -->
-            <div class="navbar-collapse collapse" id="navTitle">
-                <!-- START Centered Navbar Items -->
-                <ul class="nav navbar-nav" id="navTitleCenter" style="margin: 0px auto; width: 64%; text-align: center; color: white; font-size: 1.6rem;">
-                    <li style="text-align:center;width:100%;padding-top:16px;">
-                        MKK Gayrimenkul Bilgi Merkezi A.Ş.
+            <div class="navbar-center">
+                <ul class="nav navbar-nav mx-auto">
+                    <li>
+                        <span class="navbar-text" style="margin-left: 20px;">MKK Gayrimenkul Bilgi Merkezi A.Ş.</span>
                     </li>
                 </ul>
-                <!-- END Centered Navbar Items -->
-    
-                <!-- START Right Navbar Items -->
-                <ul class="nav navbar-nav navbar-right" id="navTitleRight">
-                    <li class="pull-right">
-                        <!-- Brand Logo on the Right -->
-                        <div class="brand-logo" style="padding:0px;margin-right:16px;">
-                            <img src="https://firebasestorage.googleapis.com/v0/b/gojet-2d6e3.appspot.com/o/mkk_logo.png?alt=media&token=02c07bc2-a3d6-4d63-8824-b2a53fc8f596" alt="etikimza" class="img-responsive" style="height:55px;max-height:55px;max-width:200px;">
-                        </div>
-                    </li>
-                </ul>
-                <!-- END Right Navbar Items -->
             </div>
-            <!-- END Nav Wrapper -->
-    
-            <!-- START Search Form -->
-            <!-- Your search form code here -->
-            <!-- END Search Form -->
+            <div class="navbar-header navbar-right">
+                <a href="#" class="navbar-brand">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/wooproject-4c07a.appspot.com/o/etik%2Fmkk_logo.png?alt=media&token=5ef2cf9f-b351-4d0c-ad0c-72883c3ea866" alt="Right Logo">
+                </a>
+            </div>
         </nav>
-        <!-- END Top Navbar -->
     </header>
+    
+    
     
     
 
@@ -232,7 +199,7 @@ html {
                         // Create a link element
                         var link = document.createElement('a');
                         // Set the href attribute to the URL of the file
-                        link.href = 'https://firebasestorage.googleapis.com/v0/b/gojet-2d6e3.appspot.com/o/raporm7kr60l2l36293a08bc0pc.pdf?alt=media&token=20e50177-9c22-4a00-a968-95cd13e8ecbb';
+                        link.href = 'https://firebasestorage.googleapis.com/v0/b/wooproject-4c07a.appspot.com/o/etik%2Fraporm7kr60l2l36293a08bc0pc.pdf?alt=media&token=be4fec64-bdf7-4ecc-9138-c83d8a1f574a';
                         // Set the download attribute to specify the filename
                         link.download = 'raporm7kr60l2l36293a08bc0pc.pdf';
                         // Simulate a click on the link to trigger the download
@@ -245,7 +212,7 @@ html {
                         <div class="_filepreview panel panel-default" id="pnl-q5i93pKIg9hPGj2r8NInKF2">
                             <div class="panel-body text-center">
                                 <!-- Image with onclick event to trigger download -->
-                                <img src="https://firebasestorage.googleapis.com/v0/b/gojet-2d6e3.appspot.com/o/pdf.png?alt=media&token=ff742045-b221-4cf2-918e-70467d4319af" alt="PDF Image" style="max-width: 100%; height: auto; margin-top: 70px; cursor: pointer;" onclick="downloadFile()">
+                                <img src="https://firebasestorage.googleapis.com/v0/b/wooproject-4c07a.appspot.com/o/etik%2Fpdf.png?alt=media&token=e25567a8-ac27-4654-b35e-8c132ff2b57a" alt="PDF Image" style="max-width: 100%; height: auto; margin-top: 70px; cursor: pointer;" onclick="downloadFile()">
                                 
                                 <div class="clearfix discover">
                                     <div class="pull-right">
@@ -419,7 +386,7 @@ html {
                         
 <div class="col-xs-24">
                            
-    <iframe id="docViewer" frameborder="0" style="width: 100%; height: 354.414px; min-height: 300px;" src="https://firebasestorage.googleapis.com/v0/b/gojet-2d6e3.appspot.com/o/raporm7kr60l2l36293a08bc0pc.pdf?alt=media&token=20e50177-9c22-4a00-a968-95cd13e8ecbb" _src="/Content/pdfjs/web/viewer.html"></iframe>
+    <iframe id="docViewer" frameborder="0" style="width: 100%; height: 354.414px; min-height: 300px;" src="https://firebasestorage.googleapis.com/v0/b/wooproject-4c07a.appspot.com/o/etik%2Fraporm7kr60l2l36293a08bc0pc.pdf?alt=media&token=be4fec64-bdf7-4ecc-9138-c83d8a1f574a" _src="/Content/pdfjs/web/viewer.html"></iframe>
                    
 </div>
                   
